@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <general>
+    <loadOnStartup>False</loadOnStartup>
+    <startMinimized>False</startMinimized>
+    <checkForUpdates>True</checkForUpdates>
+    <language>en-US</language>
+    <tempDirectory><![CDATA[./temp]]></tempDirectory>
+    <browserFileInfo><![CDATA[C:\Programme\Internet Explorer\iexplore.exe]]></browserFileInfo>
+  </general>
+  <proxy>
+    <http></http>
+  </proxy>
+  <providers>
+    <directories>
+      <item><![CDATA[Z:\Development\search\providers]]></item>
+    </directories>
+    <identCodes>
+      <com.newsarea.search.provider.RSSProvider><![CDATA[r]]></com.newsarea.search.provider.RSSProvider>
+      <com.newsarea.search.provider.ITunesProvider><![CDATA[i]]></com.newsarea.search.provider.ITunesProvider>
+      <com.newsarea.search.provider.GoogleWebSearchProvider><![CDATA[g]]></com.newsarea.search.provider.GoogleWebSearchProvider>
+      <com.newsarea.search.provider.GoogleTranslationProvider><![CDATA[t]]></com.newsarea.search.provider.GoogleTranslationProvider>
+      <com.newsarea.search.provider.MSDNProvider><![CDATA[m]]></com.newsarea.search.provider.MSDNProvider>
+      <com.newsarea.search.provider.CMDProvider><![CDATA[c]]></com.newsarea.search.provider.CMDProvider>
+      <com.newsarea.search.provider.JavaAPIProvider><![CDATA[j]]></com.newsarea.search.provider.JavaAPIProvider>
+    </identCodes>
+  </providers>
+</settings>

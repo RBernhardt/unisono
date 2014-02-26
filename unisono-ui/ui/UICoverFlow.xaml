@@ -1,0 +1,25 @@
+﻿<UserControl x:Uid="UserControl_1" x:Class="com.newsarea.search.ui.UICoverFlow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:fk="clr-namespace:FluidKit.Controls;assembly=FluidKit">
+    <Grid x:Uid="Grid_1">       
+        <ListBox x:Uid="lboxElementFlow" x:Name="lboxElementFlow">
+            <ListBox.ItemTemplate>
+                <DataTemplate x:Uid="DataTemplate_1">
+                    <Border x:Uid="ElementVisual" x:Name="ElementVisual" Background="White" Padding="5" BorderThickness="1" BorderBrush="Black" Grid.Row="0">
+                        <Image x:Uid="Image_1" Source="{Binding}" Stretch="Fill" />
+                    </Border>
+                </DataTemplate>                
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate x:Uid="ItemsPanelTemplate_1">
+                    <fk:ElementFlow x:Uid="fkElementFlow" Name="fkElementFlow" Height="295" Width="1000">
+                        <fk:ElementFlow.Camera>
+                            <PerspectiveCamera x:Uid="PerspectiveCamera_1" FieldOfView="50" Position="0,0,6" LookDirection="0,0,-6" UpDirection="0,1,0" />
+                        </fk:ElementFlow.Camera>
+                    </fk:ElementFlow>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,22 @@
+﻿<UserControl x:Uid="UserControl_1" x:Class="com.newsarea.search.ui.UISearchResultItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Padding="0" Margin="0" FontFamily="Arial" VerticalContentAlignment="Center">
+    <Grid x:Uid="Grid_1">
+        <StackPanel x:Uid="StackPanel_1">
+            <StackPanel x:Uid="StackPanel_2" Orientation="Horizontal">
+                <Image x:Uid="iIcon" Name="iIcon" Width="20" Height="20" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                <Label x:Uid="lName" Name="lName" Height="25" Padding="0" Margin="10,0,0,0" Content="{Binding Name}" VerticalAlignment="Center" VerticalContentAlignment="Center" Foreground="Black" FontWeight="Normal" />
+            </StackPanel>
+            <StackPanel x:Uid="cContent" Name="cContent" Orientation="Horizontal" Margin="0,10,0,20">                
+                <Border x:Uid="boIImage" Name="boIImage" BorderThickness="1" BorderBrush="Black" Margin="0,0,10,0">
+                    <Image x:Uid="iImage" Name="iImage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="140" />
+                </Border>
+                <StackPanel x:Uid="StackPanel_3" VerticalAlignment="Top">
+                    <StackPanel x:Uid="preDescription" Name="preDescription" />
+                    <TextBlock x:Uid="lDescription" Name="lDescription" Text="{Binding Description}" TextWrapping="Wrap" Foreground="Gray" />
+                    <StackPanel x:Uid="postDescription" Name="postDescription" />
+                </StackPanel>
+            </StackPanel>            
+        </StackPanel>
+    </Grid>
+</UserControl>

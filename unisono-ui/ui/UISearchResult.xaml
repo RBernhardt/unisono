@@ -1,0 +1,30 @@
+﻿<UserControl x:Uid="UserControl_1" x:Class="com.newsarea.search.ui.UISearchResult"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:uc="clr-namespace:com.newsarea.search.ui"
+    Padding="0" Margin="0">
+    <Grid x:Uid="Grid_1">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Uid="rdHeader" Name="rdHeader" Height="330" />
+            <RowDefinition x:Uid="RowDefinition_1" />
+        </Grid.RowDefinitions>
+        <StackPanel x:Uid="StackPanel_1" Grid.Row="0">
+            <ToolBar x:Uid="tbarViewMode" Name="tbarViewMode" Height="30" VerticalAlignment="Top" Background="White" Margin="0,0,0,10" ToolBarTray.IsLocked="True">
+                <ToggleButton x:Uid="tbtnViewNormal" Name="tbtnViewNormal">
+                    <Image x:Uid="Image_1" Source="/search-wpf;component/images/view_normal.png" />
+                </ToggleButton>
+                <ToggleButton x:Uid="tbtnViewDetailed" Name="tbtnViewDetailed">
+                    <Image x:Uid="Image_2" Source="/search-wpf;component/images/view_detailed.png" />
+                </ToggleButton>                    
+                <Separator x:Uid="Separator_1"></Separator>
+                <ToggleButton x:Uid="tbtnViewCoverFlow" Name="tbtnViewCoverFlow">
+                    <Image x:Uid="Image_3" Source="/search-wpf;component/images/view_coverflow.png" />
+                </ToggleButton>
+            </ToolBar>                  
+            <!--<uc:UICoverFlow x:Name="ucCoverFlow" Height="300" Margin="0,0,0,10" />-->            
+        </StackPanel>
+        <ScrollViewer x:Uid="svResults" Grid.Row="1" Name="svResults" VerticalScrollBarVisibility="Auto" Padding="0" Margin="0">
+            <StackPanel x:Uid="stackResults" Name="stackResults" Margin="0" VerticalAlignment="Top" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

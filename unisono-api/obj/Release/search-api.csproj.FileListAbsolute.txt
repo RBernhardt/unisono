@@ -1,0 +1,7 @@
+Z:\Development\search\search-api\bin\Release\search-api.dll
+Z:\Development\search\search-api\bin\Release\search-api.pdb
+Z:\Development\search\search-api\bin\Release\lib-xml.dll
+Z:\Development\search\search-api\bin\Release\log4net.dll
+Z:\Development\search\search-api\bin\Release\log4net.xml
+Z:\Development\search\search-api\obj\Release\search-api.dll
+Z:\Development\search\search-api\obj\Release\search-api.pdb

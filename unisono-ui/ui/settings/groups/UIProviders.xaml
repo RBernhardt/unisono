@@ -1,0 +1,38 @@
+﻿<UserControl x:Uid="UserControl_1" x:Class="com.newsarea.search.ui.settings.groups.UIProviders"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Uid="Grid_1">
+         <StackPanel x:Uid="StackPanel_1">
+            <GroupBox x:Uid="gbDirectories" Name="gbDirectories" Header="Directories" Margin="0,5,0,5">
+                <Grid x:Uid="Grid_2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition x:Uid="ColumnDefinition_1" />
+                        <ColumnDefinition x:Uid="ColumnDefinition_2" Width="40" />
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Uid="lboxDirectories" Name="lboxDirectories" Grid.Column="0" Height="100" Margin="0" DisplayMemberPath="FullName" />
+                    <StackPanel x:Uid="StackPanel_2" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Center">                        
+                        <Button x:Uid="btnInsertDirectory" Name="btnInsertDirectory" Height="25" Width="25" Padding="0" Margin="0,0,0,5">
+                            <Image x:Uid="iBtnInsertDirectory" Name="iBtnInsertDirectory" Source="/search-wpf;component/images/db_add.png" Stretch="Fill" />
+                        </Button>                                            
+                        <Button x:Uid="btnRemoveDirectory" Name="btnRemoveDirectory" Height="25" Width="25" Padding="0">
+                            <Image x:Uid="iBtnRemoveDirectory" Name="iBtnRemoveDirectory" Source="/search-wpf;component/images/db_remove.png" Stretch="Fill" />
+                        </Button>
+                    </StackPanel>                    
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Uid="gbIdentCodes" Name="gbIdentCodes" Header="Ident Codes" Height="200" Margin="0,5,0,5" >
+                <Grid x:Uid="Grid_3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition x:Uid="RowDefinition_1" />
+                        <RowDefinition x:Uid="RowDefinition_2" Height="30" />
+                    </Grid.RowDefinitions>
+                    <ListBox x:Uid="lboxProviders" Grid.Row="0" Name="lboxProviders" Margin="0" DisplayMemberPath="Key" SelectedValuePath="Value" />
+                    <StackPanel x:Uid="StackPanel_3" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">                        
+                        <TextBox x:Uid="txtIdentCode" Name="txtIdentCode" Width="30" Height="20" />   
+                        <Button x:Uid="btnAssign" Name="btnAssign" Content="Assign" Height="25" Margin="5,0,0,0" Padding="5,0,5,0" />
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </StackPanel>   
+    </Grid>
+</UserControl>

@@ -1,0 +1,50 @@
+﻿<Window x:Uid="Window_1" x:Class="com.newsarea.search.ui.UISearch"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:uc="clr-namespace:com.newsarea.search.ui"
+    Title="Search" WindowStartupLocation="CenterScreen" WindowStyle="None" ShowInTaskbar="False" Topmost="True" AllowsTransparency="True"
+    Background="Transparent" Height="274" Width="500" Focusable="False">    
+    <Grid x:Uid="gridMain" Name="gridMain">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Uid="RowDefinition_1" Height="38" />
+            <RowDefinition x:Uid="RowDefinition_2" Height="*" />
+            <RowDefinition x:Uid="RowDefinition_3" Height="29" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Uid="ColumnDefinition_1" Width="25" />
+            <ColumnDefinition x:Uid="ColumnDefinition_2" Width="*" />
+            <ColumnDefinition x:Uid="ColumnDefinition_3" Width="25" />
+        </Grid.ColumnDefinitions>
+        <!---->
+        <Canvas x:Uid="Canvas_1" Grid.Column="1" Grid.Row="1" Margin="0,0,0,0" Background="White" ></Canvas>
+        <!---->
+        <Image x:Uid="image1" Grid.Column="0" Name="image1" Stretch="None" Source="/search-wpf;component/images/corner_topleft.png" />
+        <Image x:Uid="iLogo" Grid.Column="1" Name="iLogo" Stretch="None" Source="/search-wpf;component/images/bg_top.png" />
+        <Image x:Uid="image3" Grid.Column="2" Name="image3" Stretch="None" Source="/search-wpf;component/images/corner_topright.png" />
+        <Image x:Uid="image4" Grid.Column="0" Grid.Row="2" Name="image4" Stretch="None" Source="/search-wpf;component/images/corner_bottomleft.png" />
+        <Image x:Uid="image5" Grid.Column="1" Grid.Row="2" Name="image5" Stretch="None" Source="/search-wpf;component/images/bg_bottom.png" />
+        <Image x:Uid="image6" Grid.Column="2" Grid.Row="2" Name="image6" Stretch="None" Source="/search-wpf;component/images/corner_bottomright.png" />
+        <Image x:Uid="image7" Grid.Column="0" Grid.Row="1" Name="image7" Stretch="None" Source="/search-wpf;component/images/left.png" />
+        <Image x:Uid="image8" Grid.Column="2" Grid.Row="1" Name="image8" Stretch="None" Source="/search-wpf;component/images/right.png" />
+        <!-- -->        
+        <TextBox x:Uid="txtSearch" Grid.Column="1" Grid.Row="1" Height="20" Margin="35,10,0,0" Name="txtSearch" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Gray"></TextBox>
+        <Image x:Uid="imgCurrentProvider" Grid.Column="1" Grid.Row="1" Margin="0,10,0,0" Width="20" Height="20" Name="imgCurrentProvider" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/search-wpf;component/images/search.png" />
+        <!-- -->
+        <uc:UISearchResult x:Uid="ucSearchResult" x:Name="ucSearchResult" Grid.Column="1" Grid.Row="1" Margin="0,50,0,60" Focusable="False" />
+        <!-- -->
+        <StackPanel x:Uid="StackPanel_1" Grid.Column="1" Grid.Row="1" Margin="0,0,0,5" VerticalAlignment="Bottom">            
+            <Label x:Uid="lMessage" Name="lMessage" Grid.Column="1" Grid.Row="1" Height="15" Margin="0,0,0,5" FontFamily="Arial" Foreground="DarkBlue" Padding="0" VerticalContentAlignment="Center" />
+            <ProgressBar x:Uid="pbMain" Name="pbMain" Grid.Column="1" Grid.Row="1" Height="15" />
+        </StackPanel>
+        <!-- -->        
+        <Grid x:Uid="gridIcons" Grid.Column="1" Grid.Row="2" Margin="0,0,0,4" Name="gridIcons">  
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Uid="ColumnDefinition_4" Width="74" />
+                <ColumnDefinition x:Uid="ColumnDefinition_5" Width="126*" />
+                <ColumnDefinition x:Uid="ColumnDefinition_6" Width="228*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Uid="stackIcons" Name="stackIcons" Orientation="Horizontal" Grid.ColumnSpan="2" />
+            <StackPanel x:Uid="stackInactiveIcons" Grid.Column="2" Margin="0,0,0,0" Name="stackInactiveIcons" Orientation="Horizontal" FlowDirection="RightToLeft" />
+        </Grid>        
+    </Grid>
+</Window>

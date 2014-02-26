@@ -1,0 +1,7 @@
+Z:\Development\unisono\unisono-api\bin\Debug\search-api.dll
+Z:\Development\unisono\unisono-api\bin\Debug\search-api.pdb
+Z:\Development\unisono\unisono-api\bin\Debug\lib-xml.dll
+Z:\Development\unisono\unisono-api\bin\Debug\log4net.dll
+Z:\Development\unisono\unisono-api\bin\Debug\log4net.xml
+Z:\Development\unisono\unisono-api\obj\Debug\search-api.dll
+Z:\Development\unisono\unisono-api\obj\Debug\search-api.pdb
