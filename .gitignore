@@ -1,0 +1,5 @@
+packages
+**/obj
+*.log
+.AppleDouble
+.DS_Store
