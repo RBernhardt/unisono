@@ -18,17 +18,17 @@
         <!---->
         <Canvas x:Uid="Canvas_1" Grid.Column="1" Grid.Row="1" Margin="0,0,0,0" Background="White" ></Canvas>
         <!---->
-        <Image x:Uid="image1" Grid.Column="0" Name="image1" Stretch="None" Source="/search-wpf;component/images/corner_topleft.png" />
-        <Image x:Uid="iLogo" Grid.Column="1" Name="iLogo" Stretch="None" Source="/search-wpf;component/images/bg_top.png" />
-        <Image x:Uid="image3" Grid.Column="2" Name="image3" Stretch="None" Source="/search-wpf;component/images/corner_topright.png" />
-        <Image x:Uid="image4" Grid.Column="0" Grid.Row="2" Name="image4" Stretch="None" Source="/search-wpf;component/images/corner_bottomleft.png" />
-        <Image x:Uid="image5" Grid.Column="1" Grid.Row="2" Name="image5" Stretch="None" Source="/search-wpf;component/images/bg_bottom.png" />
-        <Image x:Uid="image6" Grid.Column="2" Grid.Row="2" Name="image6" Stretch="None" Source="/search-wpf;component/images/corner_bottomright.png" />
-        <Image x:Uid="image7" Grid.Column="0" Grid.Row="1" Name="image7" Stretch="None" Source="/search-wpf;component/images/left.png" />
-        <Image x:Uid="image8" Grid.Column="2" Grid.Row="1" Name="image8" Stretch="None" Source="/search-wpf;component/images/right.png" />
+        <Image x:Uid="image1" Grid.Column="0" Name="image1" Stretch="None" Source="/unisono;component/images/corner_topleft.png" />
+        <Image x:Uid="iLogo" Grid.Column="1" Name="iLogo" Stretch="None" Source="/unisono;component/images/bg_top.png" />
+        <Image x:Uid="image3" Grid.Column="2" Name="image3" Stretch="None" Source="/unisono;component/images/corner_topright.png" />
+        <Image x:Uid="image4" Grid.Column="0" Grid.Row="2" Name="image4" Stretch="None" Source="/unisono;component/images/corner_bottomleft.png" />
+        <Image x:Uid="image5" Grid.Column="1" Grid.Row="2" Name="image5" Stretch="None" Source="/unisono;component/images/bg_bottom.png" />
+        <Image x:Uid="image6" Grid.Column="2" Grid.Row="2" Name="image6" Stretch="None" Source="/unisono;component/images/corner_bottomright.png" />
+        <Image x:Uid="image7" Grid.Column="0" Grid.Row="1" Name="image7" Stretch="None" Source="/unisono;component/images/left.png" />
+        <Image x:Uid="image8" Grid.Column="2" Grid.Row="1" Name="image8" Stretch="None" Source="/unisono;component/images/right.png" />
         <!-- -->        
         <TextBox x:Uid="txtSearch" Grid.Column="1" Grid.Row="1" Height="20" Margin="35,10,0,0" Name="txtSearch" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Gray"></TextBox>
-        <Image x:Uid="imgCurrentProvider" Grid.Column="1" Grid.Row="1" Margin="0,10,0,0" Width="20" Height="20" Name="imgCurrentProvider" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/search-wpf;component/images/search.png" />
+        <Image x:Uid="imgCurrentProvider" Grid.Column="1" Grid.Row="1" Margin="0,10,0,0" Width="20" Height="20" Name="imgCurrentProvider" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/unisono;component/images/search.png" />
         <!-- -->
         <uc:UISearchResult x:Uid="ucSearchResult" x:Name="ucSearchResult" Grid.Column="1" Grid.Row="1" Margin="0,50,0,60" Focusable="False" />
         <!-- -->

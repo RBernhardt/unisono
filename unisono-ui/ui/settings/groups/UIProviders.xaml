@@ -12,10 +12,10 @@
                     <ListBox x:Uid="lboxDirectories" Name="lboxDirectories" Grid.Column="0" Height="100" Margin="0" DisplayMemberPath="FullName" />
                     <StackPanel x:Uid="StackPanel_2" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Center">                        
                         <Button x:Uid="btnInsertDirectory" Name="btnInsertDirectory" Height="25" Width="25" Padding="0" Margin="0,0,0,5">
-                            <Image x:Uid="iBtnInsertDirectory" Name="iBtnInsertDirectory" Source="/search-wpf;component/images/db_add.png" Stretch="Fill" />
+                            <Image x:Uid="iBtnInsertDirectory" Name="iBtnInsertDirectory" Source="/unisono;component/images/db_add.png" Stretch="Fill" />
                         </Button>                                            
                         <Button x:Uid="btnRemoveDirectory" Name="btnRemoveDirectory" Height="25" Width="25" Padding="0">
-                            <Image x:Uid="iBtnRemoveDirectory" Name="iBtnRemoveDirectory" Source="/search-wpf;component/images/db_remove.png" Stretch="Fill" />
+                            <Image x:Uid="iBtnRemoveDirectory" Name="iBtnRemoveDirectory" Source="/unisono;component/images/db_remove.png" Stretch="Fill" />
                         </Button>
                     </StackPanel>                    
                 </Grid>

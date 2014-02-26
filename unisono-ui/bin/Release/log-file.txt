@@ -35606,3 +35606,30 @@ System.UnauthorizedAccessException: Der Zugriff auf den Pfad "C:\Users\bernhardt
    bei com.newsarea.search.provider.CMDProvider.appendFiles(DirectoryInfo dInfo) in z:\Development\search\providers\default\CMDProvider.cs:Zeile 41.
    bei com.newsarea.search.provider.CMDProvider.init() in z:\Development\search\providers\default\CMDProvider.cs:Zeile 28.
    bei com.newsarea.search.provider.Providers.ProviderLocatorAndAvailabilityWorker.start() in z:\Development\search\search-api\provider\Providers.cs:Zeile 226.
+2014-02-26 21:23:00,186 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:23:00,217 [9] INFO  com.newsarea.search.ui.UISearch - /*                        APP START                             */
+2014-02-26 21:23:00,217 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:23:00,295 [14] DEBUG com.newsarea.search.provider.Providers - provider locating completed
+2014-02-26 21:23:00,295 [14] DEBUG com.newsarea.search.provider.Providers - start loop - check availability
+2014-02-26 21:23:00,295 [15] DEBUG com.newsarea.search.provider.Providers - SearchWorker - wait for search input
+2014-02-26 21:23:44,038 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:23:44,272 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:23:44,771 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:23:44,974 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:25:11,160 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:25:11,188 [9] INFO  com.newsarea.search.ui.UISearch - /*                        APP START                             */
+2014-02-26 21:25:11,189 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:25:11,278 [14] DEBUG com.newsarea.search.provider.Providers - SearchWorker - wait for search input
+2014-02-26 21:25:11,279 [13] DEBUG com.newsarea.search.provider.Providers - provider locating completed
+2014-02-26 21:25:11,279 [13] DEBUG com.newsarea.search.provider.Providers - start loop - check availability
+2014-02-26 21:27:19,404 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:27:19,435 [9] INFO  com.newsarea.search.ui.UISearch - /*                        APP START                             */
+2014-02-26 21:27:19,435 [9] INFO  com.newsarea.search.ui.UISearch - /****************************************************************/
+2014-02-26 21:27:19,513 [12] DEBUG com.newsarea.search.provider.Providers - provider locating completed
+2014-02-26 21:27:19,513 [12] DEBUG com.newsarea.search.provider.Providers - start loop - check availability
+2014-02-26 21:27:19,513 [13] DEBUG com.newsarea.search.provider.Providers - SearchWorker - wait for search input
+2014-02-26 21:27:24,464 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:27:24,698 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:27:25,353 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:27:25,618 [9] DEBUG com.newsarea.search.ui.UISearch - LControlKey
+2014-02-26 21:27:26,559 [9] DEBUG com.newsarea.search.ui.UISearch - LMenu

@@ -11,14 +11,14 @@
         <StackPanel x:Uid="StackPanel_1" Grid.Row="0">
             <ToolBar x:Uid="tbarViewMode" Name="tbarViewMode" Height="30" VerticalAlignment="Top" Background="White" Margin="0,0,0,10" ToolBarTray.IsLocked="True">
                 <ToggleButton x:Uid="tbtnViewNormal" Name="tbtnViewNormal">
-                    <Image x:Uid="Image_1" Source="/search-wpf;component/images/view_normal.png" />
+                    <Image x:Uid="Image_1" Source="/unisono;component/images/view_normal.png" />
                 </ToggleButton>
                 <ToggleButton x:Uid="tbtnViewDetailed" Name="tbtnViewDetailed">
-                    <Image x:Uid="Image_2" Source="/search-wpf;component/images/view_detailed.png" />
+                    <Image x:Uid="Image_2" Source="/unisono;component/images/view_detailed.png" />
                 </ToggleButton>                    
                 <Separator x:Uid="Separator_1"></Separator>
                 <ToggleButton x:Uid="tbtnViewCoverFlow" Name="tbtnViewCoverFlow">
-                    <Image x:Uid="Image_3" Source="/search-wpf;component/images/view_coverflow.png" />
+                    <Image x:Uid="Image_3" Source="/unisono;component/images/view_coverflow.png" />
                 </ToggleButton>
             </ToolBar>                  
             <!--<uc:UICoverFlow x:Name="ucCoverFlow" Height="300" Margin="0,0,0,10" />-->            
